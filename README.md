@@ -24,6 +24,7 @@
 - [Design Patterns](#design-pattern)
 - [Prós e Cons](#pros_cons)
 - [SOLID](#solid)
+- [Como rodar?](#run)
 
 ## 🧐 Design Patterns <a name = "design-pattern"></a>
 
@@ -79,3 +80,11 @@ Os design patterns são dividos em 3 categorias: <strong>criação (creational)<
 - <strong>Liskov substitution principle</strong> (Princípio da substituição de Liskov) - os clientes não devem ser forçados a depender de interface que não utilizam
 
 - <strong>Dependency inversion principle</strong> (Princípio da inversão de dependência) - módulos de alto nível não devem depender de módulos de baixo nível; ambobs devem depender de abstrações. Detalhes devem depender das abstrações, não o inverso
+
+## Como rodar <a name = "run"></a>
+
+```
+$ yarn install
+```
+
+É necessário ter uma extensão do vscode chamada <strong>Code Runner</strong>, essa ext irá habilitar um botão de Play em todos arquivos .ts, é só clicar.
