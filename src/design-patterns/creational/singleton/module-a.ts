@@ -1,4 +1,4 @@
-import { MyDatabaseFunction } from "./my-database-function";
+import { MyDatabaseFunction } from "./db/my-database-function";
 import "./module-b";
 
 const myDatabaseClassic = MyDatabaseFunction;
