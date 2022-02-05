@@ -4,7 +4,7 @@
 
 O Builder é um padrão de projeto criacional que permite a você construir objetos complexos passo a passo. O padrão permite que você produza diferentes tipos e representações de um objeto usando o mesmo código de construção.
 
-## Tipos
+<!-- ## Tipos
 
 - [Genérico](#generic)
 - [Módulo](#module)
@@ -20,4 +20,4 @@ O Singleton por módulo é algo específico do Javascript/Typescript, por padrã
 
 ### Função
 
-O Singleton por função também é algo específico do Javascript/Typescript, tendo a forma de funções IIFE (Immediately Invoked Function Expression)
+O Singleton por função também é algo específico do Javascript/Typescript, tendo a forma de funções IIFE (Immediately Invoked Function Expression) -->
