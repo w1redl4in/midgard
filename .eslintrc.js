@@ -29,6 +29,9 @@ module.exports = {
     'no-console': 'off',
     'wrap-iife': 'off',
     'func-names': 'off',
+    'no-unused-vars': 'off',
+    'max-classes-per-file': 'off',
+    'object-curly-newline': 'off',
   },
   settings: {
     'import/resolver': {
