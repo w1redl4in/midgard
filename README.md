@@ -53,7 +53,7 @@ Os design patterns são dividos em 3 categorias: <strong>criação (creational)<
 - Podem trazer otimizações prematuras para o seu código (<strong>YAGNI</strong> - You Ain't Gonna Need It)
 - Se usados incorretamente, podem atrapalhhar ao invés de ajudar
 
-## Design Patterns que vou estudar
+## Design Patterns
 
 | Criação          | Estrutural | Comportamental          |
 | ---------------- | ---------- | ----------------------- |
