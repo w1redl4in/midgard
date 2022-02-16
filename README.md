@@ -16,7 +16,7 @@
 ---
 
 <p align="center">Projeto criado para a prática de Design-Patterns, Clean Code e Arquiteturas
-    <br> 
+    <br>
 </p>
 
 ## 📝 Conteúdo
@@ -80,6 +80,28 @@ Os design patterns são dividos em 3 categorias: <strong>criação (creational)<
 - <strong>Liskov substitution principle</strong> (Princípio da substituição de Liskov) - os clientes não devem ser forçados a depender de interface que não utilizam
 
 - <strong>Dependency inversion principle</strong> (Princípio da inversão de dependência) - módulos de alto nível não devem depender de módulos de baixo nível; ambobs devem depender de abstrações. Detalhes devem depender das abstrações, não o inverso
+
+## Dúvidas genéricas
+
+### Classe abstrata vs Interface
+
+Uma classe abstrata pode conter lógica (código), enquanto que uma interface somente pode especificar quais os métodos ou propriedades que uma classe que implementa a interface deve definir. Entretanto nenhuma das duas pode ser usada para construir um objeto, para isso é necessário definir uma classe que derive da abstrata (mas que não seja abstrata) ou que implemente a interface.
+
+#### Exemplo de classe abstrata
+```
+abstract class MaquinaDeLavar
+
+{
+   public MaquinaDeLavar()
+   {
+      // Codigo para iniciar o objeto.
+   }
+
+   abstract public void Lavar();
+   abstract public void Enxaguar(int tamanhoCarga);
+   abstract public long Secar(int velocidade);
+}
+```
 
 ## Como rodar <a name = "run"></a>
 
