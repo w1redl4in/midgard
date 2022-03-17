@@ -14,9 +14,7 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: [
-    '@typescript-eslint',
-  ],
+  plugins: ['@typescript-eslint'],
   rules: {
     'import/prefer-default-export': 'off',
     'no-use-before-define': 'off',
@@ -32,6 +30,7 @@ module.exports = {
     'no-unused-vars': 'off',
     'max-classes-per-file': 'off',
     'object-curly-newline': 'off',
+    'class-methods-use-this': 'off',
   },
   settings: {
     'import/resolver': {
