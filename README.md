@@ -73,8 +73,9 @@ Os design patterns são dividos em 3 categorias: <strong>criação (creational)<
 
 ### Princípios do design orientado a objetos
 
-- <strong>Single Responsability Principle</strong> (Princípio da responsabilidade única) - uma classe deve ter apenas um motivo para mudar
-
+- <strong>Single Responsability Principle</strong> (Princípio da responsabilidade única) - uma classe deve ter apenas um motivo para mudar.
+  <strong>Exemplo:</strong> Podemos enxergar isso do ponto de vista de negócio. Imaginemos uma classe `Carro` que tem um método `fabricar()` e suponhamos que um dia chegue uma demanda da área de <strong>Contabilidade</strong> que agora precisamos calcular a taxa de entrega do `Carro`. Caso implementemos essa demanda na mesma classe `Carro` estaríamos ferindo o <strong>Single Responsability Principle</strong> pois a idea inicial da nossa classe era apenas <strong>fabricar</strong> `Carros`, ou seja, suprir uma demanda da área de <strong>Negócio</strong> e agora a mesma classe compartilha de diferentes interesses que <strong>podem ou não</strong> entrarem em <strong>conflito.</strong>
+  <br />
 - <strong>Open/closed principle</strong> (Princípio do aberto/fechado) - classes ou objetos e metodos devem estar abertos para extensão, mas fechados para modificações
 
 - <strong>Liskov substitution principle</strong> (Princípio da substituição de Liskov) - os clientes não devem ser forçados a depender de interface que não utilizam
@@ -88,6 +89,7 @@ Os design patterns são dividos em 3 categorias: <strong>criação (creational)<
 Uma classe abstrata pode conter lógica (código), enquanto que uma interface somente pode especificar quais os métodos ou propriedades que uma classe que implementa a interface deve definir. Entretanto nenhuma das duas pode ser usada para construir um objeto, para isso é necessário definir uma classe que derive da abstrata (mas que não seja abstrata) ou que implemente a interface.
 
 #### Exemplo de classe abstrata
+
 ```
 abstract class MaquinaDeLavar
 
