@@ -31,6 +31,7 @@ module.exports = {
     'max-classes-per-file': 'off',
     'object-curly-newline': 'off',
     'class-methods-use-this': 'off',
+    'no-undef': 'off',
   },
   settings: {
     'import/resolver': {
