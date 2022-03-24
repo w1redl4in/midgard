@@ -1,4 +1,4 @@
-# Adapter
+# Bridge
 
 - [Propósito](#proposal)
 - [Problema](#problem)
