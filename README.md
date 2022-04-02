@@ -77,10 +77,15 @@ Os design patterns são dividos em 3 categorias: <strong>criação (creational)<
   <strong>Exemplo:</strong> Podemos enxergar isso do ponto de vista de negócio. Imaginemos uma classe `Carro` que tem um método `fabricar()` e suponhamos que um dia chegue uma demanda da área de <strong>Contabilidade</strong> que agora precisamos calcular a taxa de entrega do `Carro`. Caso implementemos essa demanda na mesma classe `Carro` estaríamos ferindo o <strong>Single Responsability Principle</strong> pois a idea inicial da nossa classe era apenas <strong>fabricar</strong> `Carros`, ou seja, suprir uma demanda da área de <strong>Negócio</strong> e agora a mesma classe compartilha de diferentes interesses que <strong>podem ou não</strong> entrarem em <strong>conflito.</strong>
   <br />
 - <strong>Open/closed principle</strong> (Princípio do aberto/fechado) - classes ou objetos e metodos devem estar abertos para extensão, mas fechados para modificações
+  <br />
 
-- <strong>Liskov substitution principle</strong> (Princípio da substituição de Liskov) - os clientes não devem ser forçados a depender de interface que não utilizam
+- <strong>Liskov substitution principle</strong> (Princípio da substituição de Liskov) - uma classe derivada deve ser substituível por sua classe base.
+  <br />
 
-- <strong>Dependency inversion principle</strong> (Princípio da inversão de dependência) - módulos de alto nível não devem depender de módulos de baixo nível; ambobs devem depender de abstrações. Detalhes devem depender das abstrações, não o inverso
+- <strong>Interface Segregation Principle</strong> (Princípio da Segregação da Interface) - uma classe não deve ser forçada a implementar interfaces e métodos que não irão utilizar.
+  <br/>
+
+- <strong>Dependency inversion principle</strong> (Princípio da inversão de dependência) - módulos de alto nível não devem depender de módulos de baixo nível; ambos devem depender de abstrações. Detalhes devem depender das abstrações, não o inverso
 
 ## Dúvidas genéricas
 
