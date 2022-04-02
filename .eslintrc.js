@@ -32,6 +32,7 @@ module.exports = {
     'object-curly-newline': 'off',
     'class-methods-use-this': 'off',
     'no-undef': 'off',
+    'operator-linebreak': 'off',
   },
   settings: {
     'import/resolver': {
